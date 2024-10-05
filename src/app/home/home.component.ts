@@ -6,4 +6,10 @@ import { Component,} from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent{
+  scrollToElement(id: string): void {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 }

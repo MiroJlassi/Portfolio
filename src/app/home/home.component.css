@@ -1,29 +1,37 @@
 .arrow-container {
-    position: relative;
-    width: 50px; /* Adjust the width of the container */
-    height: 50px; /* Adjust the height of the container */
+  position: relative;
+  width: 50px; /* Adjust the width of the container */
+  height: 50px; /* Adjust the height of the container */
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 20px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #ffffff91;
+  animation: arrowAnimation 0.8s infinite alternate;
+  transition-duration: 0.5s;
+}
+
+  .arrow:hover {
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 35px solid white;
+    cursor: pointer;
   }
-  
-  .arrow {
-    position: absolute;
-    margin-top: 20px;
-    top: 0;
-    left: 50%; /* Position the arrow in the center horizontally */
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-left: 30px solid transparent; /* Adjust the size of the arrow */
-    border-right: 30px solid transparent; /* Adjust the size of the arrow */
-    border-top: 30px solid #ffffff91; /* Adjust the color and size of the arrow */
-    animation: arrowAnimation 0.4s infinite alternate; /* Adjust the animation duration */
+
+@keyframes arrowAnimation {
+  0% {
+    transform: translateX(-50%) translateY(0);
   }
-  
-  @keyframes arrowAnimation {
-    0% {
-      transform: translateX(-50%) translateY(0);
-    }
-    100% {
-      transform: translateX(-50%) translateY(10px); /* Adjust the vertical movement of the arrow */
-    }
+
+  100% {
+    transform: translateX(-50%) translateY(10px);
   }
-  
+}
