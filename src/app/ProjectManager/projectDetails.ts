@@ -6,6 +6,12 @@ export class ProjectDetails {
   constructor() {
     this.Projects = [
       new Project(
+        "Professional-Login-Page-Template - 2024",
+        "A Professional Login Page Template featuring a detailed login interface, signup functionality, and secure password encryption, ready to be integrated into any project.",
+        "https://github.com/MiroJlassi/Professional-Login-Page-Template/raw/main/FrontEnd/src/assets/register.png",
+        "https://github.com/MiroJlassi/Professional-Login-Page-Template"
+      ),
+      new Project(
         "Web Project: Tunisian Red Crescent Comite Manouba - 2024",
         "The Tunisian Red Crescent Comite Manouba website is an academic project showcasing fundamental HTML, CSS, JS, and PHP skills. Designed to support and unite aid efforts for Palestinians, this platform serves as a hub for gathering assistance.",
         "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/PROJECTS%2Fprojetweb1.png?alt=media&token=e3b64214-97af-4378-97e5-b3b5bc44e0d3",
