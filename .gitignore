@@ -40,3 +40,14 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+
+# Ignore Visual Studio settings
+.vs/
+
+# Ignore VSCode settings
+.vscode/
+
+
+
