@@ -6,7 +6,7 @@ export class ProjectDetails {
   constructor() {
     this.Projects = [
       new Project(
-        "Professional-Login-Page-Template - 2024",
+        "Professional Login Page Template - 2024",
         "A Professional Login Page Template featuring a detailed login interface, signup functionality, and secure password encryption, ready to be integrated into any project.",
         "https://github.com/MiroJlassi/Professional-Login-Page-Template/raw/main/FrontEnd/src/assets/register.png",
         "https://github.com/MiroJlassi/Professional-Login-Page-Template"
