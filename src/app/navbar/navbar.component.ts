@@ -18,7 +18,7 @@ export class NavbarComponent {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth',block: 'start' });
     }
-    this.toggleMenu(); // Close the menu after clicking a link
+    this.toggleMenu();
   }
 }
 
