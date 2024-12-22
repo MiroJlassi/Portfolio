@@ -17,6 +17,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 
+import { environment } from '../environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +44,7 @@ import { ProjectsComponent } from './projects/projects.component';
       "appId": "1:890483621302:web:994c5cbaadb2f1d8381517",
       "databaseURL": "https://portfolio-projects-83398-default-rtdb.firebaseio.com",
       "storageBucket": "portfolio-projects-83398.appspot.com",
-      "apiKey": "AIzaSyCyO9aapJzt7ebk62P6QbKfc1ayy_pywsc",
+      "apiKey": environment.FIREBASE_API_KEY,
       "authDomain": "portfolio-projects-83398.firebaseapp.com",
       "messagingSenderId": "890483621302",
       "measurementId": "G-4B9GFJ0WH8"
