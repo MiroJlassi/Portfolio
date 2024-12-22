@@ -27,7 +27,7 @@ export class ProjectsComponent {
 
           if (projectData.ProjectCategoryu === "Game") {
             // Fill gameDetails array
-            this.gameDetails.push(new Game(
+            this.gameDetails.unshift(new Game(
               projectData.ProjectName,
               projectData.ProjectDescription,
               projectData.ProjectImageLink,
@@ -35,7 +35,7 @@ export class ProjectsComponent {
             ));
           } else {
             // Fill projectDetails array
-            this.projectDetails.push(new Project(
+            this.projectDetails.unshift(new Project(
               projectData.ProjectName,
               projectData.ProjectDescription,
               projectData.ProjectImageLink,
