@@ -44,7 +44,7 @@ import * as apiConfig from "./a.json"; // Import the JSON file directly
       "appId": "1:890483621302:web:994c5cbaadb2f1d8381517",
       "databaseURL": "https://portfolio-projects-83398-default-rtdb.firebaseio.com",
       "storageBucket": "portfolio-projects-83398.appspot.com",
-      apiKey: apiConfig.a, // Use the key from the JSON file
+      apiKey: apiConfig.a, 
       "authDomain": "portfolio-projects-83398.firebaseapp.com",
       "messagingSenderId": "890483621302",
       "measurementId": "G-4B9GFJ0WH8"
