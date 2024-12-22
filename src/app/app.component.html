@@ -1,35 +1,50 @@
+<!-- NavBar-->
 <app-navbar></app-navbar>
+
+<!-- Introduction -->
 <app-home id="home"></app-home>
-<div id="games"></div>
+
 <div style="display: flex;justify-content: center; align-items: center; flex-direction: column;">
-    <h1 style="text-align: center;margin-top: 200px;">GAMES</h1>
-    <div style="width: 30%; height: 3px; background-color: rgba(255, 255, 255, 0.2);border-radius: 20px;"></div>
-    <div style="display: flex;justify-content: center; flex-wrap: wrap;width: 98%;" >
-      <div *ngFor="let game of gameDetails.Games">
-        <app-card
-          [imageUrl]="game.ImageLink"
-          [title]="game.Name"
-          [description]="game.Description"
-          [link]="game.GameLink">
-        </app-card>
-      </div>
+  <!-- Games -->
+  <div id="games"></div>
+  <h1 style="text-align: center;margin-top: 200px;">GAMES</h1>
+  <div style="width: 30%; height: 3px; background-color: rgba(255, 255, 255, 0.2);border-radius: 20px;"></div>
+  <div style="display: flex;justify-content: center; flex-wrap: wrap;width: 98%;">
+    <div *ngFor="let game of gameDetails.Games">
+      <app-card [imageUrl]="game.ImageLink"
+                [title]="game.Name"
+                [description]="game.Description"
+                [link]="game.GameLink">
+      </app-card>
     </div>
-    <div id="projects"></div>
-    <h1 style="text-align: center; margin-top: 100px;">PROJECTS</h1>
-    <div style="width: 30%; height: 3px; background-color: rgba(255, 255, 255, 0.2); margin-bottom: 50px;border-radius: 20px;"></div>
-    <div style="display: flex;justify-content: center; flex-wrap: wrap;width: 98%;">
-      <div *ngFor="let project of projectDetails.Projects">
-        <app-card
-          [imageUrl]="project.ImageLink"
-          [title]="project.Name"
-          [description]="project.Description"
-          [link]="project.ProjectLink">
-        </app-card>
-      </div>
+  </div>
+
+  <!-- Projects -->
+  <div id="projects"></div>
+  <h1 style="text-align: center; margin-top: 100px;">PROJECTS</h1>
+  <div style="width: 30%; height: 3px; background-color: rgba(255, 255, 255, 0.2); margin-bottom: 50px;border-radius: 20px;"></div>
+  <div style="display: flex;justify-content: center; flex-wrap: wrap;width: 98%;">
+    <div *ngFor="let project of projectDetails.Projects">
+      <app-card [imageUrl]="project.ImageLink"
+                [title]="project.Name"
+                [description]="project.Description"
+                [link]="project.ProjectLink">
+      </app-card>
     </div>
+  </div>
 </div>
+
+<!-- Services -->
 <app-services id="services"></app-services>
+
+<!-- Skills -->
 <app-me></app-me>
+
+<!-- Contacts -->
 <div id="contact" style="margin-bottom: 200px;"></div>
-<br><br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <app-contact></app-contact>
