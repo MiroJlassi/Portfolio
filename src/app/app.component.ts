@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { GameDetails } from "../app/ProjectManager/gameDetails"
-import { ProjectDetails } from "../app/ProjectManager/projectDetails"
 
 @Component({
   selector: 'app-root',
@@ -9,12 +7,4 @@ import { ProjectDetails } from "../app/ProjectManager/projectDetails"
 })
 export class AppComponent {
   title = 'portfolio2';
-
-  gameDetails: GameDetails;
-  projectDetails: ProjectDetails;
-
-  constructor() {
-    this.gameDetails = new GameDetails();
-    this.projectDetails = new ProjectDetails();
-  }
 }
