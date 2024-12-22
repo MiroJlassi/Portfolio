@@ -17,7 +17,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 
-import { environment } from '../environments/environment';
+import * as apiConfig from "./a.json"; // Import the JSON file directly
 
 @NgModule({
   declarations: [
@@ -44,7 +44,7 @@ import { environment } from '../environments/environment';
       "appId": "1:890483621302:web:994c5cbaadb2f1d8381517",
       "databaseURL": "https://portfolio-projects-83398-default-rtdb.firebaseio.com",
       "storageBucket": "portfolio-projects-83398.appspot.com",
-      "apiKey": environment.FIREBASE_API_KEY,
+      apiKey: apiConfig.a, // Use the key from the JSON file
       "authDomain": "portfolio-projects-83398.firebaseapp.com",
       "messagingSenderId": "890483621302",
       "measurementId": "G-4B9GFJ0WH8"
