@@ -1,12 +1,14 @@
 <nav class="navbar">
-    <div class="container">
-        <div class="burger" (click)="toggleMenu()">☰<br></div>
-        <ul class="nav-links" [class.nav-active]="isMenuOpen">
-            <li><a (click)="scrollToElement('home')">HOME</a></li>
-            <li><a (click)="scrollToElement('games')">GAMES</a></li>
-            <li><a (click)="scrollToElement('projects')">PROJECTS</a></li>
-            <li><a (click)="scrollToElement('services')">SERVICES</a></li>
-            <li><a (click)="scrollToElement('contact')">CONTACTS</a></li>
-        </ul>
-    </div>
+  <div class="container">
+    <div class="burger" (click)="toggleMenu()">☰<br></div>
+    <ul class="nav-links" [class.nav-active]="isMenuOpen">
+      <li><a (click)="scrollToElement('home')">HOME</a></li>
+      <li><a (click)="scrollToElement('games')">GAMES</a></li>
+      <li><a (click)="scrollToElement('projects')">PROJECTS</a></li>
+      <li><a (click)="scrollToElement('services')">SERVICES</a></li>
+      <li><a (click)="scrollToElement('contact')">CONTACTS</a></li>
+    </ul>
+  </div>
 </nav>
+
+<app-theme></app-theme>
