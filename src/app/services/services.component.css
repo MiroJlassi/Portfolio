@@ -4,8 +4,7 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  transition: transform 0.3s ease;
-  border: 2px solid red;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
   .main.dark {
     background-color: #121212;
