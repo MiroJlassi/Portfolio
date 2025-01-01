@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ThemeManagerService } from "../../app/theme-manager.service";
+
 import { Database, ref, onValue } from "@angular/fire/database";
 import { Game } from "../../models/game";
 import { Project } from "../../models/Project";
@@ -8,12 +10,19 @@ import { Project } from "../../models/Project";
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
-export class ProjectsComponent {
+export class ProjectsComponent implements OnInit {
   gameDetails: Game[] = [];
   projectDetails: Project[] = [];
-
-  constructor(public dataBase: Database) {
+  currentTheme = '';
+  constructor(public dataBase: Database,
+    private themeService: ThemeManagerService) {
     this.getProjectsFromFirebase();
+  }
+
+  ngOnInit(): void {
+    this.themeService.currentTheme.subscribe((theme) => {
+      this.currentTheme = theme;
+    });
   }
 
   getProjectsFromFirebase() {

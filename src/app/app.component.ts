@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ThemeManagerService } from "../app/theme-manager.service";
+
 
 @Component({
   selector: 'app-root',

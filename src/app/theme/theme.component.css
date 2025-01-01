@@ -1,0 +1,39 @@
+.theme-toggle-btn {
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 10px 20px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition-duration: 0.3s;
+  font-size: 30px;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+  .theme-toggle-btn.dark {
+    background-color: rgb(237, 237, 237, 0,50);
+    box-shadow: 0px 0px 100px 20px #8d65c5;
+  }
+
+  .theme-toggle-btn.light {
+    background-color: #121212;
+    box-shadow: 0px 0px 100px 20px orange;
+  }
+
+  .theme-toggle-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+
+@media screen and (max-width: 700px) {
+  .theme-toggle-btn {
+    top: 6%;
+  }
+}

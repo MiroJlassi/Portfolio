@@ -1,5 +1,5 @@
-// card.component.ts
-import { Component, Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ThemeManagerService } from "../../app/theme-manager.service";
 
 @Component({
   selector: 'app-card',
@@ -12,4 +12,14 @@ export class CardComponent {
   @Input() description: string = '';
   @Input() link: string = '';
   @Input() linkText: string = '';
+
+  currentTheme = '';
+
+  constructor(private themeService: ThemeManagerService) { }
+
+  ngOnInit(): void {
+    this.themeService.currentTheme.subscribe((theme) => {
+      this.currentTheme = theme;
+    });
+  }
 }

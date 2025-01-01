@@ -1,4 +1,4 @@
-<div style="display: flex;justify-content: center; align-items: center; flex-direction: column;">
+<div class="container" [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'">
   <!-- Games -->
   <div id="games"></div>
   <h1 style="text-align: center;margin-top: 200px;">GAMES</h1>
@@ -15,7 +15,7 @@
 
   <!-- Projects -->
   <div id="projects"></div>
-  <h1 style="text-align: center; margin-top: 100px;">PROJECTS</h1>
+  <h1 style="text-align: center; margin-top: 200px;">PROJECTS</h1>
   <div style="width: 30%; height: 3px; background-color: rgba(255, 255, 255, 0.2); margin-bottom: 50px;border-radius: 20px;"></div>
   <div style="display: flex;justify-content: center; flex-wrap: wrap;width: 98%;">
     <div *ngFor="let project of projectDetails">

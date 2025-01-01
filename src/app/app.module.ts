@@ -17,7 +17,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 
-import * as apiConfig from "./a.json"; // Import the JSON file directly
+import * as apiConfig from "./a.json";
+import { ThemeComponent } from './theme/theme.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import * as apiConfig from "./a.json"; // Import the JSON file directly
     ServicesComponent,
     ContactComponent,
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ThemeComponent,
   ],
   imports: [
     BrowserModule,

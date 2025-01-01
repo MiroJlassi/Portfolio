@@ -1,8 +1,8 @@
-<div class="main">
-    <img [src]="imageUrl" alt="">
-    <div style="width: 90%;">
-        <h3 style="text-align: center;">{{ title }}</h3>
-        <p>{{ description }}</p>
-        <a [href]="link" target="_blank"><div>READ MORE -></div></a>
-    </div>
+<div class="container" [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'">
+  <img [src]="imageUrl" alt="">
+  <div style="width: 90%;">
+    <h3 style="text-align: center;">{{ title }}</h3>
+    <p>{{ description }}</p>
+    <a [href]="link" target="_blank"><div>READ MORE -></div></a>
+  </div>
 </div>
