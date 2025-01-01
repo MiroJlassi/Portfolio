@@ -1,3 +1,27 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  border: 2px solid red;
+}
+
+  .container.dark {
+    background-color: #121212;
+    color: white;
+  }
+
+  .container.light {
+    background-color: white;
+    color: #121212;
+  }
+
+.elements{
+    width:80%;
+    text-align: center;
+}
 .arrow-container {
   position: relative;
   width: 50px; /* Adjust the width of the container */
@@ -35,3 +59,7 @@
     transform: translateX(-50%) translateY(10px);
   }
 }
+
+
+
+
