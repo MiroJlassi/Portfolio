@@ -1,27 +1,46 @@
-# Portfolio2
+# 🌟 Portfolio Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+Welcome to my personal portfolio project! 🎉 This project is my playground to **experiment, learn, and share my skills**. It reflects my journey as a **Computer Science Engineering student** and my professional growth as a **part-time Software Engineer**. 
 
-## Development server
+## 🌐 About the Portfolio https://mirojlassi.github.io/Portfolio/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This portfolio isn't just a showcase of my work—it's a place where I continuously experiment with new features, improve my skills, and have fun! Every feature implemented is a step forward in mastering concepts like clean code, Git workflows, and innovative design.
 
-## Code scaffolding
+## ✨ Features 🛠
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Here’s a glimpse of the journey so far:
 
-## Build
+1. **Static Projects Showcase**  
+   Initially, all my projects were hardcoded into the portfolio. Each new project required manually diving into the code to update the list.  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Automation - Local Project List https://github.com/MiroJlassi/Portfolio/pull/1**  
+   The first upgrade automated this process. I created a local project list that dynamically displayed all projects, making the process more efficient.  
 
-## Running unit tests
+3. **Backend Integration https://github.com/MiroJlassi/Portfolio/pull/2**  
+   To further enhance automation, I built a **dedicated backend** for managing projects. With this update, I can now **add, edit, or delete projects** directly from the backend, streamlining the workflow.  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. **Dark/Light Theme Toggle https://github.com/MiroJlassi/Portfolio/pull/5**  
+   Recently, I implemented a **theme toggle**! This feature not only enhances user experience but also allowed me to explore:
+   - Component communication  
+   - Observables and subscriptions with a **Theme Manager Service**
 
-## Running end-to-end tests
+5. **Git Professionalism**  
+   I take pride in maintaining this project using **professional Git workflows**, including:  
+   - Creating separate branches for features and bug fixes  
+   - Merging and resolving conflicts efficiently  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+6. **Continuous Creativity**  
+   I constantly come up with random ideas and aim to implement them here, making this project a hub for learning and creativity.  
 
-## Further help
+## 🛠 Future Plans
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Adding animations and micro-interactions for better user experience  
+- Experimenting with new technologies and frameworks  
+
+## 🤝 Contributions
+
+While this is a personal project, I'm always open to feedback and suggestions! Feel free to create issues to suggest new features.  
+
+---
+
+### 🎯 Check it out and join me on this exciting journey of learning and creativity!
