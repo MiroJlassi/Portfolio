@@ -11,6 +11,7 @@ export class NavbarComponent {
   isMenuOpen: boolean = false;
   isDropdownOpen: boolean = false;
   currentLanguage: string = "EN";
+
   constructor(private translation: TranslationService, private cdr: ChangeDetectorRef) { }
 
   toggleMenu() {
@@ -27,12 +28,12 @@ export class NavbarComponent {
 
   toggleDropdown() {
     this.isDropdownOpen = !this.isDropdownOpen;
+    console.log(this.isDropdownOpen);
   }
 
   switchLanguage(language: string) {
     this.currentLanguage = language;
     this.translation.switchLanguage(language);
-    this.toggleDropdown();
-    this.cdr.detectChanges();
+    this.cdr.detectChanges(); // Trigger change detection
   }
 }

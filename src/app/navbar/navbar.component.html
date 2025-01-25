@@ -10,7 +10,7 @@
     </ul>
   </div>
   <div class="language-switch" (click)="toggleDropdown()">
-    <div class="dropbtn">{{ currentLanguage | uppercase }}</div> <!-- Dynamically show current language -->
+    <div class="dropbtn">{{ currentLanguage | uppercase }}</div>
     <div class="dropdown-content" [class.show]="isDropdownOpen">
       <div (click)="switchLanguage('EN')">EN</div>
       <div (click)="switchLanguage('FR')">FR</div>
