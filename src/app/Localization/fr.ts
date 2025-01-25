@@ -27,5 +27,5 @@ export const fr = {
   "contact.discord.title": "DISCORD :",
   "contact.discord.text": "-> miro#3878",
   "contact.gmail.title": "Email :",
-  "contact.gmail.text": "-> marwen.jlassi&#64;ensi-uma.tn",
+  "contact.gmail.text": "-> marwen.jlassi@ensi-uma.tn",
 };

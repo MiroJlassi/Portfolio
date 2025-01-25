@@ -7,6 +7,7 @@ export const en = {
   "home.header.title": "Hola! I'm MIRO.👋",
   "home.header.subtitle": "Computer Science Engineering Student & Software Engineer...",
   "home.body.text": "I’m a Computer Science Engineering student at the National School of Computer Science and a part-time Software Engineer at Expensya by Medius. I love using technology to create solutions that make a difference.Game development is my favorite hobby, and I enjoy building fun and immersive experiences. Join me on my journey as I combine my skills in software engineering and game development!",
+  // "home.body.text": "I’m a Computer Science Engineering student at the <strong style=\"color: #41abfd\">National School of Computer Science</strong> and a part-time Software Engineer at <strong style=\"color: #41abfd\">Expensya</strong> by Medius.<br /> I love using technology to create solutions that make a difference. Game development is my favorite hobby, and I enjoy building fun and immersive experiences.<br /> Join me on my journey as I combine my skills in software engineering and game development!",
   "cards.button.text": "READ MORE ->",
   "services.web.title": "Web Development",
   "services.web.bodytext": "I can help you create the perfect responsive websites that are fast, easy to use, and built with best practices. With my expertise in full stack development, I can make something according to your needs.",
@@ -27,5 +28,5 @@ export const en = {
   "contact.discord.title": "DISCORD:",
   "contact.discord.text": "-> miro#3878",
   "contact.gmail.title": "Email:",
-  "contact.gmail.text": "-> marwen.jlassi&#64;ensi-uma.tn",
+  "contact.gmail.text": "-> marwen.jlassi@ensi-uma.tn",
 };

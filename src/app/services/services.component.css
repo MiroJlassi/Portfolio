@@ -15,14 +15,6 @@
     background-color: white;
     color: #121212;
   }
-h1 {
-  transition-duration: 1s;
-  cursor: pointer;
-}
-
-  h1:hover {
-    transform:scale(1.2);
-  }
 
 .ox {
   width: 30%;
