@@ -45,7 +45,7 @@
 
 .language-switch {
   position: fixed;
-  top: 22px;
+  top: 21px;
   right: 30px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px 10px;
@@ -53,10 +53,55 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition-duration: 0.3s;
+  z-index: 1000;
 }
 
-.language-switch:hover{
-    transform: scale(1.2);
+  .language-switch:hover {
+    transform: scale(1.05);
+  }
+
+.dropbtn {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.language-switch:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 80px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  right: 0;
+  top: 100%;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+  .dropdown-content div {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+
+    .dropdown-content div:hover {
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+
+    .dropdown-content div:active {
+      background-color: #ccc;
+    }
+
+.language-switch .dropdown-content div {
+  text-align: center;
 }
 
 @media screen and (max-width: 1400px) {
