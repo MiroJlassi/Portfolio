@@ -13,6 +13,8 @@
     <div class="dropbtn">{{ currentLanguage | uppercase }}</div>
     <div class="dropdown-content" [class.show]="isDropdownOpen">
       <div (click)="switchLanguage('EN')">EN</div>
+      <div (click)="switchLanguage('AR')">AR</div>
+      <div (click)="switchLanguage('ES')">ES</div>
       <div (click)="switchLanguage('FR')">FR</div>
     </div>
   </div>
