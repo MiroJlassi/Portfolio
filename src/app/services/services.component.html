@@ -1,35 +1,29 @@
 <div class="main" [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'">
-    <h1 style="margin-top: 200px;">MY SERVICES</h1>
-    <div style="height: 3px; background-color: rgba(255, 255, 255, 0.269);width: 300px;box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.2); border-radius: 20px;"></div>
-    <div style="margin-top: 50px;"></div>
+  <h1 style="text-align: center;margin-top: 200px;">{{ "navbar.button.services" | translation }}</h1>
 
-    <div class="container" style="display: flex; justify-content: space-around;">
+  <div style="height: 3px; background-color: rgba(255, 255, 255, 0.269);width: 300px;box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.2); border-radius: 20px;"></div>
+  <div style="margin-top: 50px;"></div>
 
-        <div class="ox" style="display: flex; justify-content: space-around; align-items: center;flex-direction: column;text-align: center; border-radius: 20px; padding: 5px;">
-            <div>
-                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fweb-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg?alt=media&token=16f461ca-d61b-436c-80d8-fa81bfb39c3b" alt="" style="border-radius: 100%;height: 100px;">
-            </div>
-            <h3>WEB DEVELOPMENT</h3>
-            <p style="width: 90%;margin-top: -10px;">
-                I can help you create the perfect responsive websites that are fast, 
-                easy to use, and built with best practices. 
-                With my expertise in full stack development, 
-                I can make something according to your needs.
-            </p>
-        </div>  
+  <div class="container" style="display: flex; justify-content: space-around;">
 
-        <div class="ox" style=" display: flex; justify-content: space-around; align-items: center;flex-direction: column;text-align: center; border-radius: 20px; padding: 5px;">
-            <div>
-                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fistockphoto-1136667521-612x612.jpg?alt=media&token=20cce404-80ee-47a7-8946-db2f087a511e" alt="" style="border-radius: 100%;height: 100px;">
-            </div>
-            <h3>GAME DEVELOPMENT</h3>
-            <p style="width: 90%;margin-top: -10px;">
-                I specialize in crafting immersive and responsive games, 
-                user-friendly, and built with industry best practices. 
-                With my expertise in game development, 
-                I can bring your vision to life and create something truly tailored to your needs. 
-            </p>
-        </div>  
-        
-    </div>    
+    <div class="ox" style="display: flex; justify-content: space-around; align-items: center;flex-direction: column;text-align: center; border-radius: 20px; padding: 5px;">
+      <div>
+        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fweb-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg?alt=media&token=16f461ca-d61b-436c-80d8-fa81bfb39c3b" alt="" style="border-radius: 100%;height: 100px;">
+      </div>
+      <h3>{{ "services.web.title" | translation }}</h3>
+      <p style="width: 90%;margin-top: -10px;">
+        {{ "services.web.bodytext" | translation }}
+      </p>
+    </div>
+
+    <div class="ox" style=" display: flex; justify-content: space-around; align-items: center;flex-direction: column;text-align: center; border-radius: 20px; padding: 5px;">
+      <div>
+        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fistockphoto-1136667521-612x612.jpg?alt=media&token=20cce404-80ee-47a7-8946-db2f087a511e" alt="" style="border-radius: 100%;height: 100px;">
+      </div>
+      <h3>{{ "services.game.title" | translation }}</h3>
+      <p style="width: 90%;margin-top: -10px;">
+        {{ "services.game.bodytext" | translation }}
+      </p>
+    </div>
+  </div>
 </div>

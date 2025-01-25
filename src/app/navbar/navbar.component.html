@@ -2,12 +2,21 @@
   <div class="container">
     <div class="burger" (click)="toggleMenu()">☰<br></div>
     <ul class="nav-links" [class.nav-active]="isMenuOpen">
-      <li><a (click)="scrollToElement('home')">HOME</a></li>
-      <li><a (click)="scrollToElement('games')">GAMES</a></li>
-      <li><a (click)="scrollToElement('projects')">PROJECTS</a></li>
-      <li><a (click)="scrollToElement('services')">SERVICES</a></li>
-      <li><a (click)="scrollToElement('contact')">CONTACTS</a></li>
+      <li><a (click)="scrollToElement('home')">{{ "navbar.button.home" | translation }}</a></li>
+      <li><a (click)="scrollToElement('games')">{{ "navbar.button.games" | translation }}</a></li>
+      <li><a (click)="scrollToElement('projects')">{{ "navbar.button.projects" | translation }}</a></li>
+      <li><a (click)="scrollToElement('services')">{{ "navbar.button.services" | translation }}</a></li>
+      <li><a (click)="scrollToElement('contact')">{{ "navbar.button.contacts" | translation }}</a></li>
     </ul>
+  </div>
+  <div class="language-switch" (click)="toggleDropdown()">
+    <div class="dropbtn">{{ currentLanguage | uppercase }}</div>
+    <div class="dropdown-content" [class.show]="isDropdownOpen">
+      <div (click)="switchLanguage('EN')">EN</div>
+      <div (click)="switchLanguage('AR')">AR</div>
+      <div (click)="switchLanguage('ES')">ES</div>
+      <div (click)="switchLanguage('FR')">FR</div>
+    </div>
   </div>
 </nav>
 
