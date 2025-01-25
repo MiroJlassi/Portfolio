@@ -1,15 +1,18 @@
 <div class="container" [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'">
-  <h1>Hola! I'm MIRO.👋</h1>
-  <h2 class="elements">Computer Science Engineering Student & Software Engineer...</h2>
-  <p class="elements">
-    I’m a Computer Science Engineering student at the <strong style="color: #41abfd">National School of Computer Science</strong>
-    and a part-time Software Engineer at <strong style="color: #41abfd">Expensya</strong> by Medius.<br />
-    I love using technology to create solutions that make a difference.
-    Game development is my favorite hobby, and I enjoy building fun and immersive experiences.<br />
-    Join me on my journey as I combine my skills in software engineering and game development!
-  </p>
-
+  <h1>{{ "home.header.title" | translation }}</h1>
+  <h2 class="elements">{{ "home.header.subtitle" | translation }}</h2>
+  <p class="elements">{{ "home.body.text" | translation }}</p>
   <div class="arrow-container">
     <div class="arrow" (click)="scrollToElement('games')"></div>
   </div>
 </div>
+
+<!--
+  <p class="elements">
+  I’m a Computer Science Engineering student at the <strong style="color: #41abfd">National School of Computer Science</strong>
+  and a part-time Software Engineer at <strong style="color: #41abfd">Expensya</strong> by Medius.<br />
+  I love using technology to create solutions that make a difference.
+  Game development is my favorite hobby, and I enjoy building fun and immersive experiences.<br />
+  Join me on my journey as I combine my skills in software engineering and game development!
+</p>
+-->

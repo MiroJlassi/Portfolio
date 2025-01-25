@@ -19,6 +19,7 @@ import { ProjectsComponent } from './projects/projects.component';
 
 import * as apiConfig from "./a.json";
 import { ThemeComponent } from './theme/theme.component';
+import { TranslationPipe } from './translation.pipe';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ThemeComponent } from './theme/theme.component';
     HomeComponent,
     ProjectsComponent,
     ThemeComponent,
+    TranslationPipe,
   ],
   imports: [
     BrowserModule,
