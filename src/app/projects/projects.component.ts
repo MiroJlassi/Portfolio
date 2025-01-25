@@ -52,9 +52,6 @@ export class ProjectsComponent implements OnInit {
             ));
           }
         });
-
-        console.log("Game Details:", this.gameDetails);
-        console.log("Project Details:", this.projectDetails);
       } else {
         console.log("No data available");
       }

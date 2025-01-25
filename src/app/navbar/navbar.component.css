@@ -66,10 +66,6 @@
   cursor: pointer;
 }
 
-.language-switch:hover .dropdown-content {
-  display: block;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -102,6 +98,10 @@
 
 .language-switch .dropdown-content div {
   text-align: center;
+}
+
+.show {
+  display: block;
 }
 
 @media screen and (max-width: 1400px) {

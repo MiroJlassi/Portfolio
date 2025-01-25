@@ -7,11 +7,11 @@ import { fr } from "../app/Localization/fr";
 })
 export class TranslationService {
   private translations: any = en; 
-  private currentLanguage: string = "en";
+  private currentLanguage: string = "EN";
 
   switchLanguage(language: string) {
     this.currentLanguage = language;
-    this.translations = language === "fr" ? fr : en;
+    this.translations = language === "FR" ? fr : en;
   }
 
   translate(key: string): string { 
