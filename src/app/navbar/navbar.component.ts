@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TranslationService } from '../translation.service';
+import { TranslationService } from '../app_services/translation.service';
 import { ChangeDetectorRef } from '@angular/core';
 
 @Component({

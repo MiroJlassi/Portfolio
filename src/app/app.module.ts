@@ -19,7 +19,7 @@ import { ProjectsComponent } from './projects/projects.component';
 
 import * as apiConfig from "./a.json";
 import { ThemeComponent } from './theme/theme.component';
-import { TranslationPipe } from './translation.pipe';
+import { TranslationPipe } from './app_services/translation.pipe';
 
 @NgModule({
   declarations: [

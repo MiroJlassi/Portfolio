@@ -2,10 +2,10 @@
   <h1>{{ "navbar.button.contacts" | translation }}</h1>
   <div style="height: 3px; background-color: rgba(255, 255, 255, 0.269);width: 300px;box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.2); border-radius: 20px;"></div>
   <ul>
-    <li><strong>{{ "contact.github.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" href="https://github.com/MiroJlassi" target="_blank">{{ "contact.github.text" | translation }}</a></li>
-    <li><strong>{{ "contact.linkedin.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" href="https://www.linkedin.com/in/marwen-jlassi-297467221/" target="_blank">{{ "contact.linkedin.text" | translation }}</a></li>
-    <li><strong>{{ "contact.itchio.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" href="https://mirojlassi.itch.io/" target="_blank">{{ "contact.itchio.text" | translation }}</a></li>
-    <li><strong>{{ "contact.youtube.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" href="https://www.youtube.com/channel/UCKtqfo_KBwgT3ywYlzyhfTg" target="_blank">{{ "contact.youtube.text" | translation }}</a></li>
+    <li><strong>{{ "contact.github.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" [href]="links['contacts.github']" target="_blank">{{ "contact.github.text" | translation }}</a></li>
+    <li><strong>{{ "contact.linkedin.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" [href]="links['contacts.linkedin']" target="_blank">{{ "contact.linkedin.text" | translation }}</a></li>
+    <li><strong>{{ "contact.itchio.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" [href]="links['contacts.itchio']" target="_blank">{{ "contact.itchio.text" | translation }}</a></li>
+    <li><strong>{{ "contact.youtube.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" [href]="links['contacts.youtube']" target="_blank">{{ "contact.youtube.text" | translation }}</a></li>
     <li><strong>{{ "contact.discord.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'">{{ "contact.discord.text" | translation }}</a></li>
     <li><strong>{{ "contact.gmail.title" | translation }}</strong><a [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" href="mailto:marwen.jlassi@ensi-uma.tn">{{ "contact.gmail.text" | translation }}</a></li>
   </ul>

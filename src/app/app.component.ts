@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ThemeManagerService } from "../app/theme-manager.service";
+import { ThemeManagerService } from "../app/app_services/theme-manager.service";
 
 
 @Component({
