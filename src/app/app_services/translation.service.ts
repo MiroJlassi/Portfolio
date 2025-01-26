@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { en } from "../app/Localization/en";
-import { fr } from "../app/Localization/fr";
-import { ar } from "../app/Localization/ar";
-import { es } from "../app/Localization/es";
+import { en } from "./Localization/en";
+import { fr } from "./Localization/fr";
+import { ar } from "./Localization/ar";
+import { es } from "./Localization/es";
 
 @Injectable({
   providedIn: 'root'
