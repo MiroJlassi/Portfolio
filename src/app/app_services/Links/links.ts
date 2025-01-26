@@ -4,4 +4,28 @@ export const links = {
   "contacts.itchio": "https://mirojlassi.itch.io/",
   "contacts.youtube": "https://www.youtube.com/channel/UCKtqfo_KBwgT3ywYlzyhfTg",
 
+  "skills.c": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2FC.png?alt=media&token=993f0aea-b405-464c-9a61-bc5301b9dfa3",
+  "skills.c++": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fc%2B%2B.png?alt=media&token=71f7e1c8-83e8-4a43-aff8-959ae4bc8be9",
+  "skills.c#": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fc%20sharp.png?alt=media&token=83d82f57-f615-4466-ba20-9e6477c2b938",
+  "skills.python": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fpython-programming-language.png?alt=media&token=65481f4c-fbb8-429f-8ffd-d01c139b83b4",
+  "skills.java": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fjava-logo-1.png?alt=media&token=619f306d-fed2-4bea-a072-b6bc037c6b87",
+  "skills.javascript": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2FJavaScript-logo.png?alt=media&token=b6d47c0a-459c-47b5-9333-48b72d26a4a8",
+  "skills.html": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fhtml5.png?alt=media&token=9d4072cb-2879-4a92-8087-72fec042a438",
+  "skills.css": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2FCSS3_logo_and_wordmark.svg.png?alt=media&token=592343d8-c0ac-4ba1-9226-b6b5fcad6a1a",
+  "skills.php": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fphp.png?alt=media&token=6437753d-60e2-460d-aea8-07802c633e95",
+
+  "skills.angular": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fangular.png?alt=media&token=9b0d0167-06ac-416f-88d1-d762763ea2ea",
+  "skills.mongodb": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fmongodb.png?alt=media&token=5ba5ee09-8060-4c2f-92c6-f7db177deb62",
+  "skills.nodejs": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fnode.jpg?alt=media&token=1059ff04-52d3-409a-8ff4-e669ff670039",
+  "skills.express": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fexpress.png?alt=media&token=c3d01d33-d6f5-4999-97b0-19078d79670c",
+
+  "skills.unity": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Ftu3gt6ysfxq71.png?alt=media&token=0b34d9b7-b5c4-43c2-9a8d-ad946b27831a",
+  "skills.godot": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2F1200px-Godot_icon.svg.png?alt=media&token=66447ee1-c980-49ea-b1cb-d0a74c9dfbd6",
+  "skills.blender": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2FDakirby309-Simply-Styled-Blender.256.png?alt=media&token=363bc606-2584-4ff8-aa78-3e5e4a2ae50e",
+  "skills.photoshop": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fadobe-photoshop-logo-0.png?alt=media&token=3736c6ed-b507-4138-adbb-d732f116454d",
+  "skills.illustrator": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fadobe-Illustrator-logo-0-1.png?alt=media&token=252ce809-ca49-43fd-8508-dbe4698ce099",
+  "skills.aftereffects": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fadobe-after-effects-logo-0.png?alt=media&token=187510d4-2d39-41e7-9316-165cf742e83e",
+  "skills.premiere": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2FPremiere-Pro-Logo-PNG-Vector.png?alt=media&token=00d35670-ffe2-4cec-a92a-a2f36456bb98",
+  "skills.": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2F66c33251292331d29585d32632c3870651b66e01.png?alt=media&token=70c88db0-61a1-4f26-9d2a-49f54d2e2558",
+  "skills.flstudio": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fst%2Csmall%2C845x845-pad%2C1000x1000%2Cf8f8f8.jpg?alt=media&token=ada8b0f5-444d-430b-94fd-4a69b235de8e", 
 }
