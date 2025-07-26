@@ -6,36 +6,39 @@
   flex-wrap: wrap;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
-  .main.dark {
-    background-color: #121212;
-    color: white;
-  }
 
-  .main.light {
-    background-color: white;
-    color: #121212;
-  }
-
-.ox {
-  width: 30%;
-  transition-duration: 0.5s;
-  cursor: pointer;
+.main.dark {
+  background-color: #121212;
+  color: white;
 }
 
-  .ox:hover {
-    transform: scale(1.2);
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.11);
-  }
+.main.light {
+  background-color: white;
+  color: #121212;
+}
 
-  .ox img {
-    transition-duration: 0.8s;
-    margin-top: 20px;
-  }
+.ox {
+  width: 25%; /* Reduced from 30% */
+  transition-duration: 0.5s;
+  cursor: pointer;
+  padding: 10px; /* Adjusted padding */
+}
 
-  .ox:hover img {
-    transform: rotate(10deg);
-  }
+.ox:hover {
+  transform: scale(1.1); /* Reduced from 1.2 */
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.11);
+}
+
+.ox img {
+  transition-duration: 0.8s;
+  margin-top: 10px; /* Adjusted margin */
+  height: 80px; /* Adjusted image height */
+}
+
+.ox:hover img {
+  transform: rotate(10deg);
+}
 
 @media (max-width: 1000px) {
   .container {
@@ -46,7 +49,7 @@
 
   .ox {
     margin-top: 10px;
-    width: 70%; 
-    margin-bottom: 20px; 
+    width: 60%; /* Reduced from 70% */
+    margin-bottom: 15px; /* Adjusted margin */
   }
 }

@@ -1,5 +1,6 @@
 export const links = {
   "contacts.github": "https://github.com/MiroJlassi",
+  "contacts.leetcode": "https://leetcode.com/u/MiroJlassi/",
   "contacts.linkedin": "https://www.linkedin.com/in/marwen-jlassi-297467221/",
   "contacts.itchio": "https://mirojlassi.itch.io/",
   "contacts.youtube": "https://www.youtube.com/channel/UCKtqfo_KBwgT3ywYlzyhfTg",
@@ -13,7 +14,7 @@ export const links = {
   "skills.html": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fhtml5.png?alt=media&token=9d4072cb-2879-4a92-8087-72fec042a438",
   "skills.css": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2FCSS3_logo_and_wordmark.svg.png?alt=media&token=592343d8-c0ac-4ba1-9226-b6b5fcad6a1a",
   "skills.php": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fphp.png?alt=media&token=6437753d-60e2-460d-aea8-07802c633e95",
-
+  "skills.net": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/2048px-Microsoft_.NET_logo.svg.png",
   "skills.angular": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fangular.png?alt=media&token=9b0d0167-06ac-416f-88d1-d762763ea2ea",
   "skills.mongodb": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fmongodb.png?alt=media&token=5ba5ee09-8060-4c2f-92c6-f7db177deb62",
   "skills.nodejs": "https://firebasestorage.googleapis.com/v0/b/portfolio-5b93c.appspot.com/o/SKILLS%2Fnode.jpg?alt=media&token=1059ff04-52d3-409a-8ff4-e669ff670039",

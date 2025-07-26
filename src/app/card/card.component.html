@@ -1,8 +1,9 @@
-<div class="container" [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'">
-  <img [src]="imageUrl" alt="">
-  <div style="width: 90%;">
-    <h3 style="text-align: center;">{{ title }}</h3>
-    <p>{{ description }}</p>
-    <a [href]="link" target="_blank"><div>{{ "cards.button.text" | translation }}</div></a>
+  <div class="container" [class.dark]="currentTheme === 'dark'" [class.light]="currentTheme === 'light'" style="border: 1px solid #121212;padding-bottom: 10px;">
+    <img [src]="imageUrl" alt="">
+    <div style="width: 90%;">
+      <h3 style="text-align: center;">{{ title }}</h3>
+      <p>{{ description }}</p>
+      <a [href]="link" target="_blank"><div>{{ "cards.button.text" | translation }}</div></a>
+    </div>
   </div>
-</div>
+

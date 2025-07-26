@@ -2,10 +2,37 @@
   <h1>{{ "home.header.title" | translation }}</h1>
   <h2 class="elements">{{ "home.header.subtitle" | translation }}</h2>
   <p class="elements">{{ "home.body.text" | translation }}</p>
+
+  <div class="experiences">
+    <div class="experience">
+      <img src="https://play-lh.googleusercontent.com/_QqBa_W_OvenEdf_BzAEgRWm1B4f02eQoH1dw3tl2mK1GfUz_c7bGp8-7tGsg6Sn8iIa" alt="Expensya by Medius Logo" class="company-logo">
+      <div class="experience-details">
+        <h3 class="company-title">{{ "experiences.expensya.title" | translation }}</h3>
+        <p class="position">{{ "experiences.expensya.position" | translation }}</p>
+        <div class="achievements">
+          <p>{{ "experiences.expensya.achievement1" | translation }}</p>
+          <p>{{ "experiences.expensya.achievement2" | translation }}</p>
+          <p>{{ "experiences.expensya.achievement3" | translation }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="experience">
+      <img src="https://value.com.tn/wp-content/uploads/2024/05/bg-video1.jpg" alt="Value - Digital Services Logo" class="company-logo">
+      <div class="experience-details">
+        <h3 class="company-title">{{ "experiences.value.title" | translation }}</h3>
+        <p class="position">{{ "experiences.value.position" | translation }}</p>
+        <div class="achievements">
+          <p>{{ "experiences.value.achievement1" | translation }} <a href='https://vgreen-earth.com/' target='_blank'>View Project</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="arrow-container">
     <div class="arrow" (click)="scrollToElement('games')"></div>
   </div>
 </div>
+
 
 <!--
   <p class="elements">
